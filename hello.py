@@ -6,6 +6,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return subprocess.check_output(['multimarkdown', '-h'])
+    return subprocess.check_output(['ls /app'])
 
 
