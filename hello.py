@@ -6,6 +6,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return subprocess.check_output(['ls', '-al', '/app'])
+    return subprocess.check_output(['ebook-convert'])
 
 
